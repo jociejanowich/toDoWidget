@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List Widget</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="todo-widget">
+    <div class="date-display">
+      <span id="dayName"></span>, 
+      <span id="monthName"></span> 
+      <span id="dayNumber"></span>
+    </div>
+
+    <div class="add-task">
+      <input type="text" id="newTask" placeholder="Add a new task">
+      <button id="addBtn">Add</button>
+    </div>
+
+    <div class="tasks-container"></div>
+
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+      <span id="progress-label">0 / 0 tasks done</span>
+    </div>
+  </div>
+
+  <script src="toDOWIdget.js"></script>
+</body>
+</html>
